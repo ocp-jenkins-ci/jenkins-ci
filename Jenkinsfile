@@ -4,6 +4,9 @@ node {
   }
   
   stage('Build') {
+    steps {
+     echo "this is a test message" 
+    }
     
   }
 }
